@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — Divine Plastic</title>
+<meta name="description" content="Browse the full Divine Plastic range: hydration bottles, kitchen tools, storage and organisers, bath essentials, and laundry accessories.">
+<link rel="canonical" href="https://www.divineplastic.example.com/products.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Products — Divine Plastic">
+<meta property="og:description" content="Browse the full Divine Plastic range: hydration bottles, kitchen tools, storage and organisers, bath essentials, and laundry accessories.">
+<meta property="og:image" content="https://www.divineplastic.example.com/assets/lifestyle.jpg">
+<meta property="og:url" content="https://www.divineplastic.example.com/products.html">
+<meta property="og:site_name" content="Divine Plastic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Products — Divine Plastic">
+<meta name="twitter:description" content="24 everyday plastic essentials across five categories.">
+<meta name="twitter:image" content="https://www.divineplastic.example.com/assets/lifestyle.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0F2036" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6l1 4-1 2v9a3 3 0 0 1-3 3h0a3 3 0 0 1-3-3v-9L8 7z"/></svg>
+      </span>
+      <span>Divine Plastic<small>Innovating everyday essentials</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="phone-chip" href="tel:+919512052010">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 95120 52010
+      </a>
+      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#16263B" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a class="phone-chip" href="tel:+919512052010">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    +91 95120 52010
+  </a>
+  <a href="contact.html" class="btn btn-primary">Get in touch</a>
+</div>
+
+<main>
+  <section class="page-header">
+    <div class="container">
+      <span class="kicker">The full range</span>
+      <h1>Everything Divine Plastic makes, in one place</h1>
+      <p>Twenty-four everyday products across five categories. Tap a filter to narrow things down, or browse the whole collection.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="filter-bar" role="group" aria-label="Filter products by category">
+        <button class="filter-btn active" data-group="all">All products</button>
+        <button class="filter-btn" data-group="hydration">Hydration &amp; Bottles</button>
+        <button class="filter-btn" data-group="storage">Storage &amp; Organisation</button>
+        <button class="filter-btn" data-group="kitchen">Kitchen &amp; Prep</button>
+        <button class="filter-btn" data-group="bath">Bath &amp; Care</button>
+        <button class="filter-btn" data-group="laundry">Laundry &amp; Home</button>
+      </div>
+      <p class="results-count" id="results-count"></p>
+      <div class="product-grid" id="all-products-grid">
+      <article class="product-card" data-group="hydration">
+        <div class="thumb"><img src="assets/products/motivational-bottle.jpg" alt="Motivational Bottle" loading="lazy" width="1075" height="717"></div>
+        <div class="body">
+          <span class="tag">1 Litre</span>
+          <h3>Motivational Bottle</h3>
+          <p>Drink up. Keep going</p>
+          <a class="enquire" href="contact.html?product=Motivational%20Bottle">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="hydration">
+        <div class="thumb"><img src="assets/products/unicorn-bottle.jpg" alt="Unicorn Bottle" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Kid's Bottle</span>
+          <h3>Unicorn Bottle</h3>
+          <p>Make hydration fun</p>
+          <a class="enquire" href="contact.html?product=Unicorn%20Bottle">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="hydration">
+        <div class="thumb"><img src="assets/products/space-bottle.jpg" alt="Space Bottle" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Kid's Bottle</span>
+          <h3>Space Bottle</h3>
+          <p>Big imagination, easy hydration</p>
+          <a class="enquire" href="contact.html?product=Space%20Bottle">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="hydration">
+        <div class="thumb"><img src="assets/products/carnival-jug.jpg" alt="Carnival Water Jug" loading="lazy" width="1076" height="717"></div>
+        <div class="body">
+          <span class="tag">Kid's Bottle</span>
+          <h3>Carnival Water Jug</h3>
+          <p>Serve every day in style</p>
+          <a class="enquire" href="contact.html?product=Carnival%20Water%20Jug">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/5in1-container.jpg" alt="5-in-1 Container" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">5 Compartments</span>
+          <h3>5-in-1 Container</h3>
+          <p>Keep everyday ingredients organised</p>
+          <a class="enquire" href="contact.html?product=5-in-1%20Container">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/crisper-fridge-container.jpg" alt="Crisper Fridge Container" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Food Storage</span>
+          <h3>Crisper Fridge Container</h3>
+          <p>A cleaner way to organise the fridge</p>
+          <a class="enquire" href="contact.html?product=Crisper%20Fridge%20Container">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/fridge-container.jpg" alt="Fridge Container" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Food Storage</span>
+          <h3>Fridge Container</h3>
+          <p>Bring order to your refrigerator</p>
+          <a class="enquire" href="contact.html?product=Fridge%20Container">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/fridge-basket.jpg" alt="Fridge Basket" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Storage Basket</span>
+          <h3>Fridge Basket</h3>
+          <p>Make every shelf work smarter</p>
+          <a class="enquire" href="contact.html?product=Fridge%20Basket">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/3layer-container.jpg" alt="3-Layer Container" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Storage Basket</span>
+          <h3>3-Layer Container</h3>
+          <p>More organisation. Less clutter</p>
+          <a class="enquire" href="contact.html?product=3-Layer%20Container">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/tiny-container.jpg" alt="Tiny Container" loading="lazy" width="1076" height="717"></div>
+        <div class="body">
+          <span class="tag">Compact Storage</span>
+          <h3>Tiny Container</h3>
+          <p>Small size. Everyday utility</p>
+          <a class="enquire" href="contact.html?product=Tiny%20Container">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/cabinet-drawer.jpg" alt="Cabinet Drawer" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Organiser</span>
+          <h3>Cabinet Drawer</h3>
+          <p>Turn unused space into useful storage</p>
+          <a class="enquire" href="contact.html?product=Cabinet%20Drawer">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="storage">
+        <div class="thumb"><img src="assets/products/makeup-organiser.jpg" alt="Makeup Organiser" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Organiser</span>
+          <h3>Makeup Organiser</h3>
+          <p>Keep your essentials easy to find</p>
+          <a class="enquire" href="contact.html?product=Makeup%20Organiser">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/grater.jpg" alt="Grater" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Kitchen Tool</span>
+          <h3>Grater</h3>
+          <p>A practical tool for everyday prep</p>
+          <a class="enquire" href="contact.html?product=Grater">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/pizza-cutter.jpg" alt="Pizza Cutter" loading="lazy" width="1076" height="717"></div>
+        <div class="body">
+          <span class="tag">Kitchen Tool</span>
+          <h3>Pizza Cutter</h3>
+          <p>Clean cuts, easy serving</p>
+          <a class="enquire" href="contact.html?product=Pizza%20Cutter">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/counter-chopping-board.jpg" alt="Counter Chopping Board" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Chopping Board</span>
+          <h3>Counter Chopping Board</h3>
+          <p>A practical prep surface for the kitchen</p>
+          <a class="enquire" href="contact.html?product=Counter%20Chopping%20Board">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/plain-chopping-board.jpg" alt="Plain Chopping Board" loading="lazy" width="1076" height="717"></div>
+        <div class="body">
+          <span class="tag">Chopping Board</span>
+          <h3>Plain Chopping Board</h3>
+          <p>Simple, useful, everyday kitchen prep</p>
+          <a class="enquire" href="contact.html?product=Plain%20Chopping%20Board">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/pav-bhaji-plate.jpg" alt="Pav Bhaji Plate" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Serving Plate</span>
+          <h3>Pav Bhaji Plate</h3>
+          <p>Make serving feel effortless</p>
+          <a class="enquire" href="contact.html?product=Pav%20Bhaji%20Plate">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/honey-ice-tray.jpg" alt="Honey Ice Tray" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Ice Tray</span>
+          <h3>Honey Ice Tray</h3>
+          <p>Fun shapes for everyday chilling</p>
+          <a class="enquire" href="contact.html?product=Honey%20Ice%20Tray">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="bath">
+        <div class="thumb"><img src="assets/products/face-ice-roller.jpg" alt="Face Ice Roller" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Beauty Tool</span>
+          <h3>Face Ice Roller</h3>
+          <p>A simple addition to your self-care routine</p>
+          <a class="enquire" href="contact.html?product=Face%20Ice%20Roller">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="bath">
+        <div class="thumb"><img src="assets/products/bath-belt.jpg" alt="Bath Belt" loading="lazy" width="1376" height="768"></div>
+        <div class="body">
+          <span class="tag">Bath & Body</span>
+          <h3>Bath Belt</h3>
+          <p>Make bath time more convenient</p>
+          <a class="enquire" href="contact.html?product=Bath%20Belt">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="kitchen">
+        <div class="thumb"><img src="assets/products/funny-face-lunchbox.jpg" alt="Funny Face Lunch Box" loading="lazy" width="1076" height="717"></div>
+        <div class="body">
+          <span class="tag">Lunch Box</span>
+          <h3>Funny Face Lunch Box</h3>
+          <p>Pack meals with a little personality</p>
+          <a class="enquire" href="contact.html?product=Funny%20Face%20Lunch%20Box">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="laundry">
+        <div class="thumb"><img src="assets/products/washing-machine-pad-large.jpg" alt="Washing Machine Pad - Large" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Appliance Accessory</span>
+          <h3>Washing Machine Pad - Large</h3>
+          <p>A practical base for everyday laundry setups</p>
+          <a class="enquire" href="contact.html?product=Washing%20Machine%20Pad%20-%20Large">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="laundry">
+        <div class="thumb"><img src="assets/products/washing-machine-pad-wide.jpg" alt="Washing Machine Pad - Wide" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Appliance Accessory</span>
+          <h3>Washing Machine Pad - Wide</h3>
+          <p>Useful support for your washing machine</p>
+          <a class="enquire" href="contact.html?product=Washing%20Machine%20Pad%20-%20Wide">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="product-card" data-group="laundry">
+        <div class="thumb"><img src="assets/products/washing-machine-pad-small.jpg" alt="Washing Machine Pad - Small" loading="lazy" width="1239" height="692"></div>
+        <div class="body">
+          <span class="tag">Appliance Accessory</span>
+          <h3>Washing Machine Pad - Small</h3>
+          <p>Compact utility for everyday appliance setups</p>
+          <a class="enquire" href="contact.html?product=Washing%20Machine%20Pad%20-%20Small">
+            Ask about this
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="cta-banner">
+        <div>
+          <h2>Can't find what you need?</h2>
+          <p>We regularly add new items to the range. Tell us what you're looking for and we'll let you know what's coming or possible.</p>
+        </div>
+        <div class="actions">
+          <a href="contact.html" class="btn btn-primary">Send us a message</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="logo">
+          <span class="mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#0F2036" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6l1 4-1 2v9a3 3 0 0 1-3 3h0a3 3 0 0 1-3-3v-9L8 7z"/></svg>
+          </span>
+          <span>Divine Plastic<small>Innovating everyday essentials</small></span>
+        </span>
+        <p>Everyday plastic housewares designed and finished with care, from our workshop in Rajkot, Gujarat.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="products.html?category=hydration">Hydration &amp; Bottles</a></li>
+          <li><a href="products.html?category=storage">Storage &amp; Organisation</a></li>
+          <li><a href="products.html?category=kitchen">Kitchen &amp; Prep</a></li>
+          <li><a href="products.html?category=laundry">Laundry &amp; Home</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul>
+          <li class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+919512052010">+91 95120 52010</a>
+          </li>
+          <li class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+            <a href="mailto:mayankbabariya888@gmail.com">mayankbabariya888@gmail.com</a>
+          </li>
+          <li class="contact-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Kothariya, Rajkot, Gujarat 360022</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Divine Plastic. All rights reserved.</span>
+      <span>Designed for everyday life.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
